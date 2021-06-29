@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+#container{
+  display: flex
+
+
+}
+#searchOutput{
+  width: 40%;
+  max-height: 20em;
+  border: solid;
+  font-size: 2em;
+}
+
+#searchOutputImg{
+  height: 20em;
+  width: 20em;
+  border: solid;
+  margin-left: 30em;
+}
+
+#badOutput{
+  text-align: center;
+  font-size: 5em;
+}
+
+img{
+  max-height: 20em;
+  max-width: 20em;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

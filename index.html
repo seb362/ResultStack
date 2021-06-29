@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Coding Problem
+    </title>
+    <script src="https://unpkg.com/vue@next"> </script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+  </head>
+  <body>
+    <div id="vue-app">
+
+      <h1> Github Search </h1>
+      <form @submit.prevent="getGithub">
+        <input type="search" class="form-control" v-model="query"/>
+        <input type="submit"class="button"/>
+        </form>
+      </div>
+
+      <div id = container>
+
+
+      </div>
+
+
+      <script type = "text/javascript" src="main.js"></script>
+  </body>
+</html>
